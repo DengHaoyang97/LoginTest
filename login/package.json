@@ -12,10 +12,10 @@
         "cookie-session": "*"
     },
     "engine": {
-		"node": ">=8.0.0",
-		"npm": ">=6.0.0"
+		"node": "*",
+		"npm": "*"
 	},
     "scripts": {
-        "start": "node server.js"
+        "start": "yarn start"
     }
 }
