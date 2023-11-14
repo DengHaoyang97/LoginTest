@@ -1,8 +1,8 @@
 {
-    "name": "server",
-    "description": "ODM App",
-    "author": "Raymond SO <rso@ouhk.edu.hk>",
-    "version": "0.0.1",
+    "name": "lgi",
+    "description": "wah",
+    "author": "DHY",
+    "version": "0.0.2",
     "dependencies": {
         "mongoose": "*",
         "mongodb": "*",
@@ -11,8 +11,11 @@
         "body-parser": "*",
         "cookie-session": "*"
     },
-    "engine": "node *",
+    "engine": {
+		"node": ">=8.0.0",
+		"npm": ">=6.0.0"
+	},
     "scripts": {
-        "start": "node server"
+        "start": "node server.js"
     }
 }
