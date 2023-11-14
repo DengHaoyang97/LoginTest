@@ -13,7 +13,6 @@
     },
     "engine": {
 		"node": "*",
-		"npm": "*"
 	},
     "scripts": {
         "start": "yarn start"
